@@ -59,14 +59,14 @@
                }
                   }
                   .contactomain__section2__info {
-                      @extend .contactomain__section2__form;
+                      @extend .contactomain__section2__form; 
                       width: 50%;
                       margin: 2rem;
                       display: flex;
                       flex-direction: column;
                       .contactomain__section2__infot{
-                        margin: 1rem;
                         display: flex;
+                        text-align: center;
                         justify-content: center;
                       }
                       .contactomain__section2__infop{

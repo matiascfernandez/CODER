@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     grid-area: emsection 2;
     .empresamain__section2__1 {
-            padding: 4em;
+            padding:4em;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -47,6 +47,7 @@
                     justify-content: center;
                     
                     .empresamain__section2_t{
+                        font-size: small;
                         display: flex;
                         justify-content: center;
                     }

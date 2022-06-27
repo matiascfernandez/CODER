@@ -3,6 +3,7 @@
     padding: 2em;
     background-color: map-get($mapa-colores, azul);
     grid-area: footer;
+    flex-wrap: wrap;
 
     .boton {
         color: rgb(242, 233, 228);
@@ -37,14 +38,15 @@
 
     .footer__ul {
         list-style: none;
+        font-size: small;
         color: rgb(242, 233, 228);
         display: flex;
         justify-content: end;
         .footer__ul-button{
+
+            font-size: small;
             width: 30%;
-            display: flex;
-            justify-content: center;
-            padding: 1em;
+            padding: 5em;
 
         }
     }
@@ -55,3 +57,253 @@
     }
 
 }
+
+
+@media (min-width: 576px) {
+    .footer {
+            width: 100%;
+            flex-wrap: wrap;
+            padding: 2em;
+            background-color: map-get($mapa-colores, azul);
+            grid-area: footer;
+    
+            .boton {
+                color: rgb(242, 233, 228);
+                position: relative;
+                bottom: -7%;
+            }
+    
+            .icon {
+                @include flex (inline-block, center);
+                justify-content: right;
+                animation: float 4s ease-in infinite;
+            }
+    
+            @keyframes float {
+                0% {
+                    transform: translateY(0);
+                }
+    
+                50% {
+                    transform: translateY(25px);
+                }
+    
+                100% {
+                    transform: translateY(0);
+                }
+            }
+    
+            .footer__lista {
+                display: flex;
+                justify-content: end;
+            }
+    
+            .footer__ul {
+                list-style: none;
+                color: rgb(242, 233, 228);
+                display: flex;
+                justify-content: end;
+    
+                .footer__ul-button {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1em;
+    
+                }
+            }
+    
+            .footer__img {
+                padding: 2em;
+                margin: auto;
+            }
+    
+        }
+    
+}
+
+@media (min-width: 768px) {
+    .footer {
+            width: 100%;
+            padding: 2em;
+            background-color: map-get($mapa-colores, azul);
+            grid-area: footer;
+    
+            .boton {
+                color: rgb(242, 233, 228);
+                position: relative;
+                bottom: -7%;
+            }
+    
+            .icon {
+                @include flex (inline-block, center);
+                justify-content: right;
+                animation: float 4s ease-in infinite;
+            }
+    
+            @keyframes float {
+                0% {
+                    transform: translateY(0);
+                }
+    
+                50% {
+                    transform: translateY(25px);
+                }
+    
+                100% {
+                    transform: translateY(0);
+                }
+            }
+    
+            .footer__lista {
+                display: flex;
+                justify-content: end;
+            }
+    
+            .footer__ul {
+                list-style: none;
+                color: rgb(242, 233, 228);
+                display: flex;
+                justify-content: end;
+    
+                .footer__ul-button {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    padding: 1em;
+    
+                }
+            }
+    
+            .footer__img {
+                padding: 2em;
+                margin: auto;
+            }
+    
+        }
+    
+}
+
+@media (min-width: 992px) {
+    .footer {
+            width: 100%;
+            padding: 2em;
+            background-color: map-get($mapa-colores, azul);
+            grid-area: footer;
+    
+            .boton {
+                color: rgb(242, 233, 228);
+                position: relative;
+                bottom: -7%;
+            }
+    
+            .icon {
+                @include flex (inline-block, center);
+                justify-content: right;
+                animation: float 4s ease-in infinite;
+            }
+    
+            @keyframes float {
+                0% {
+                    transform: translateY(0);
+                }
+    
+                50% {
+                    transform: translateY(25px);
+                }
+    
+                100% {
+                    transform: translateY(0);
+                }
+            }
+    
+            .footer__lista {
+                display: flex;
+                justify-content: end;
+            }
+    
+            .footer__ul {
+                list-style: none;
+                color: rgb(242, 233, 228);
+                display: flex;
+                justify-content: end;
+    
+                .footer__ul-button {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    padding: 1em;
+    
+                }
+            }
+    
+            .footer__img {
+                padding: 2em;
+                margin: auto;
+            }
+    
+        }
+    
+}
+
+@media (min-width: 1200px) {
+    .footer {
+            width: 100%;
+            padding: 2em;
+            background-color: map-get($mapa-colores, azul);
+            grid-area: footer;
+    
+            .boton {
+                color: rgb(242, 233, 228);
+                position: relative;
+                bottom: -7%;
+            }
+    
+            .icon {
+                @include flex (inline-block, center);
+                justify-content: right;
+                animation: float 4s ease-in infinite;
+            }
+    
+            @keyframes float {
+                0% {
+                    transform: translateY(0);
+                }
+    
+                50% {
+                    transform: translateY(25px);
+                }
+    
+                100% {
+                    transform: translateY(0);
+                }
+            }
+    
+            .footer__lista {
+                display: flex;
+                justify-content: end;
+            }
+    
+            .footer__ul {
+                list-style: none;
+                color: rgb(242, 233, 228);
+                display: flex;
+                justify-content: end;
+    
+                .footer__ul-button {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    padding: 1em;
+    
+                }
+            }
+    
+            .footer__img {
+                padding: 2em;
+                margin: auto;
+            }
+    
+        }
+    
+}
+

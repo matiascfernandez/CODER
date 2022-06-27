@@ -25,7 +25,7 @@
         color: rgb(34, 34, 59);
     }
     .accordion-button {
-        padding-bottom: 4em;
+        padding-bottom: 10em;
         background-color: map-get($mapa-colores, lila);
         color: rgb(34, 34, 59);
     }
@@ -44,7 +44,7 @@
             display: inline-block;
             .accordion__im{
                 width: 290px;
-                height: 370px;
+                height: 400px;
                 padding: 1em;
 
             }
